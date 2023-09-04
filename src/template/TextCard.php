@@ -32,8 +32,7 @@ class TextCard
                 ),
                 'main_title' => array(
                     'title' => '代码错误',
-                    'desc' => '您所编写的代码出现了错误，请尽快修复
-错误信息：'.$content
+                    'desc' => '错误信息：'.$content
                 ),
                 'horizontal_content_list' => array(
                     array(
