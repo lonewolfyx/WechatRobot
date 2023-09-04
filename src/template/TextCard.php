@@ -15,11 +15,12 @@ class TextCard
     /**
      * 文本卡片
      *
-     * @param string $content 错误内容
-     * @param int    $code    错误行数
+     * @param string $content   错误内容
+     * @param int    $line      错误行数
+     * @param string $file_path 文件路径
      * @return array
      */
-    public static function create(string $content, int $code): array
+    public static function create(string $content, int $line, string $file_path): array
     {
         return array(
             'msgtype' => 'template_card',
@@ -42,7 +43,11 @@ class TextCard
                 'horizontal_content_list' => array(
                     array(
                         'keyname' => '错误行数：',
-                        'value' => $code
+                        'value' => $line
+                    ),
+                    array(
+                        'keyname' => '文件路径：',
+                        'value' => $file_path
                     )
                 ),
                 'card_action' => array(
