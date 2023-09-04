@@ -1,0 +1,16 @@
+{
+    "name": "lonewolfyx/bbo-exception-wechat-robot",
+    "description": "大爆单企业微信通知",
+    "autoload": {
+        "psr-4": {
+            "WechatRobot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lonewolfyx",
+            "email": "877085893@qq.com"
+        }
+    ],
+    "require": {}
+}
