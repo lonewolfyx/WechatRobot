@@ -12,5 +12,7 @@
             "email": "877085893@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }
